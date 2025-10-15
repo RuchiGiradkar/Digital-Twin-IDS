@@ -96,7 +96,23 @@ The architecture diagram illustrating the system setup and data flow is availabl
 - **Dockerfile** – Container setup for actual system, digital twin, and C&C server.  
 - **example_data/** – Contains sample databases or logs used for testing.  
 - **images/** – Contains architecture diagrams or result visuals.  
-- **README.md** – Project documentation (this file).  
+- **README.md** – Project documentation (this file).
+
+## 📁 Repository Structure
+
+| File/Folder | Description |
+|--------------|-------------|
+| **compare.py** | IDS logic for process comparison (reads SQLite databases and raises alerts). |
+| **monitor_system.sh** | Script that automates periodic monitoring and comparison between the actual system and its digital twin. |
+| **Dockerfile** | Base configuration for creating the Docker containers used for the actual system, digital twin, and C&C server. |
+| **example_data/** | Folder containing example or generated databases for testing the IDS. |
+| ├── *Actual_System.db* | SQLite database storing process logs from the actual system. |
+| ├── *Digital_Twin.db* | SQLite database storing process logs from the digital twin system. |
+| └── *Tcpdump_log.db* | Optional SQLite database with parsed network traffic captured for forensic analysis. |
+| **images/** | Folder for storing visual materials (e.g., architecture diagrams or results). |
+| └── *architecture_diagram.png* | Diagram representing the system setup and data flow (optional). |
+| **README.md** | Project documentation containing overview, setup details, and reference information. |
+
 
 ---
 
