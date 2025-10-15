@@ -86,6 +86,7 @@ The **IDS successfully identified** these deviations by detecting the extra proc
 ## 🖼️ Architecture Diagram
 The architecture diagram illustrating the system setup and data flow is available at:  
 **`/images/architecture_diagram.png`**  
+![Architecture Diagram](images/Thesis_Flow_Chart.png)
 *(You can add your exported diagram image from your thesis presentation here.)*
 
 ---
@@ -113,6 +114,7 @@ The architecture diagram illustrating the system setup and data flow is availabl
 | └── *architecture_diagram.png* | Diagram representing the system setup and data flow (optional). |
 | **README.md** | Project documentation containing overview, setup details, and reference information. |
 
+![Folder Structure](images/Folder_Structure.png)
 
 ---
 
