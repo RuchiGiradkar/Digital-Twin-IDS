@@ -86,6 +86,8 @@ The **IDS successfully identified** these deviations by detecting the extra proc
 ## 🖼️ Architecture Diagram
 The architecture diagram illustrating the system setup and data flow is available at:  
 
+![Architecture Diagram](images/Docker_Containers.png)
+
 ![Architecture Diagram](images/Thesis_Flow_Chart.png)
 
 ---
